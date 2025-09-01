@@ -1,0 +1,7 @@
+/target
+/result/bin/*
+/result/iso/*
+/.zig-cache
+/.idea
+/installer/target
+/installer/Cargo.lock
