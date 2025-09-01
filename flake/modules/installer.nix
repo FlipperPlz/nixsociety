@@ -21,7 +21,6 @@ pkgs.rustPlatform.buildRustPackage rec {
     pkgs.darwin.apple_sdk.frameworks.Security
   ];
   
-  # Skip tests during build
   doCheck = false;
   
   meta = with pkgs.lib; {
